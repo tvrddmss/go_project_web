@@ -1,0 +1,147 @@
+
+body{
+    margin:0;
+    width: 1920px;
+    height: 947px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-image: url(../../images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* 标题 */
+.title{
+    position: absolute;
+    top:150px;
+    left: 660px;
+    height: fit-content;
+    width: fit-content;
+    background-color: #00000000;
+    color:#909A87;
+    text-shadow:-1px 0 white,0 1px white,1px 0 white,0 -1px white;
+    font-size: 30px;
+}
+/* 查询框 */
+.search{
+    border-radius: 15px;
+    position: absolute;
+    top:300px;
+    left: 660px;
+    height: 40px;
+    width: 610px;
+    background-color:  #fff;
+    border-left: #ffffff 1px solid;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    box-shadow: 0 4px 8px 0 #ffffff;/* 盒子悬浮时阴影 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search:hover{
+    box-shadow: 0 8px 16px 0 #ffffff;/* 盒子悬浮时阴影 */
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.search_input{
+    margin-left: 10px;
+    height: 30px;
+    width: 550px;
+    background-color:  #fff;
+    border-left: #ffffff 1px solid;
+    border-right: #ffffff 1px solid;
+    border-top: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
+    outline: none; /* 取消输入时的黑边 */
+    font-size: 25px;
+}
+
+/* 图片容器 */
+.content {
+    height: 947px;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.content .imagescontent{
+    align-self: center;
+    height: 100%;
+    /* width: 100%; */
+    margin-left: 80px;
+    width: 1760px;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+
+}
+
+.content .imagescontent .imagecontent
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px; 
+    height: 100%;
+    /* background-color: pink; */
+    flex-shrink:0;
+}
+
+.content .imagescontent .imagecontent .image
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 190px; 
+    height: 282px;
+    border-radius:10px;
+    /* margin-top: 10px; */
+    object-fit:cover;
+    cursor: pointer;
+    /* transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s; */
+    
+}
+
+.content .imagescontent .imagecontent .image:hover {
+    margin: 0px;
+    width: 200px;
+    height: 292px;
+}
+
+.column1{
+    margin-top: 310px;
+}
+.column2{
+    margin-top: 360px;
+}
+.column3{
+    margin-top: 410px;
+}
+.column4{
+    margin-top: 460px;
+}
+.column5{
+    margin-top: 450px;
+}
+.column6{
+    margin-top: 400px;
+}
+.column7{
+    margin-top: 350px;
+}
+.column8{
+    margin-top: 300px;
+}

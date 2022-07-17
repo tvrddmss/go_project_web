@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    width: 1920px;
+    height: 947px;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background-image: url(./images/background1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 图片容器 */
+.content {
+    height: 947px;
+    width: 1920px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.loginpad{
+    display: flex;
+    position: fixed;
+    left: 40%;
+    top: 35%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    background-color: grey;
+    box-shadow: 0 4px 8px 0 #ffffff;/* 盒子悬浮时阴影 */
+
+    flex-direction: column;
+    align-items: center;
+}
+.loginpad .title {
+    margin-top: 0px;
+}
+.loginpad .user {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+.loginpad .user .input{
+    width: 180px;
+}
+.loginpad .password {
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.loginpad .password .input{
+    width: 180px;
+}
+
+.loginpad .login {
+    margin-top: 20px;
+}
+
+.btn-default {
+
+    width: 180px;
+    display: inline-block;
+    
+    padding: 6px 12px;
+    
+    margin-bottom: 0;
+    
+    font-size: 14px;
+    
+    font-weight: 400;
+    
+    line-height: 1.42857143;
+    
+    text-align: center;
+    
+    white-space: nowrap;
+    
+    vertical-align: middle;
+    
+    -ms-touch-action: manipulation;
+    
+    touch-action: manipulation;
+    
+    cursor: pointer;
+    
+    -webkit-user-select: none;
+    
+    -moz-user-select: none;
+    
+    -ms-user-select: none;
+    
+    user-select: none;
+    
+    background-image: none;
+    
+    border: 1px solid transparent;
+    
+    border-radius: 4px;
+    
+    color: #333;
+    
+    background-color: #fff;
+    
+    border-color: #ccc;
+    
+    text-shadow: 0 1px 0 #fff;
+    
+    background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+    
+    background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+    
+    /* background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0)); */
+    
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+    
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    
+    background-repeat: repeat-x;
+    
+    border-color: #dbdbdb;
+    
+    border-color: #ccc;
+    
+}
